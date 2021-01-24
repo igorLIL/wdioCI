@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611520376789' stop='1611520394820'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1611520376790' status='passed' stop='1611520382084'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1611520382085' status='passed' stop='1611520383039'>
+            <name>submit button should be disabled if input fields are empty</name>
+            <title>submit button should be disabled if input fields are empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1611520383039' status='failed' stop='1611520394819'>
+            <name>auth fails if wrong credentials provided</name>
+            <title>auth fails if wrong credentials provided</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9b5f6012-a9b0-48b7-aaad-d124a5c8fd2d-attachment.png' type='image/png' size='98147'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`.ant-notification-notice-message`) to have text
+                
+                Expected: "Auth "
+                Received: "Auth failed"</message>
+                <stack-trace>Error: Expect $(`.ant-notification-notice-message`) to have text
+                
+                Expected: "Auth "
+                Received: "Auth failed"
+                    at Context.&lt;anonymous> (C:\Program Files\Git\QA-wdiotest\test\specs\/example.js:31:40)
+                    at Context.executeSync (C:\Program Files\Git\QA-wdiotest\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Program Files\Git\QA-wdiotest\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

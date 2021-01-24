@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "email format validation",
+      "uid" : "2bf9f125da87f548",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858163,
+        "stop" : 1611511858829,
+        "duration" : 666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "email required validation",
+      "uid" : "32550db450fc838d",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858830,
+        "stop" : 1611511859581,
+        "duration" : 751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f5a0ac5277abbdea",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520376790,
+        "stop" : 1611520382084,
+        "duration" : 5294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "submit button should be disabled if input fields are empty",
+      "uid" : "17261a72b7894b60",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520382085,
+        "stop" : 1611520383039,
+        "duration" : 954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "auth fails if wrong credentials provided",
+      "uid" : "fcae39631cd6aab4",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611520383039,
+        "stop" : 1611520394819,
+        "duration" : 11780
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    } ],
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
+  } ],
+  "name" : "suites"
+}

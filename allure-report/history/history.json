@@ -1,0 +1,98 @@
+{
+  "341fcc5fd3148e30eaf524e1244a9008" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5a0ac5277abbdea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520376790,
+        "stop" : 1611520382084,
+        "duration" : 5294
+      }
+    } ]
+  },
+  "ef48d47e9509e200c0495f71a063ce22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32550db450fc838d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858830,
+        "stop" : 1611511859581,
+        "duration" : 751
+      }
+    } ]
+  },
+  "274cb95d86e24a7eafb030ab6e347c4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2bf9f125da87f548",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858163,
+        "stop" : 1611511858829,
+        "duration" : 666
+      }
+    } ]
+  },
+  "390ee7a3a1f31ec88972cf4dd1e6d12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17261a72b7894b60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520382085,
+        "stop" : 1611520383039,
+        "duration" : 954
+      }
+    } ]
+  },
+  "3cde1faa61b3c9059564ebd2450bb478" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcae39631cd6aab4",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+      "time" : {
+        "start" : 1611520383039,
+        "stop" : 1611520394819,
+        "duration" : 11780
+      }
+    } ]
+  }
+}

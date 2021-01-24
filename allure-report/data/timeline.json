@@ -1,0 +1,152 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "email format validation",
+      "uid" : "2bf9f125da87f548",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858163,
+        "stop" : 1611511858829,
+        "duration" : 666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "submit button should be disabled if input fields are empty",
+      "uid" : "810f4dfa9fc7133b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511855911,
+        "stop" : 1611511856540,
+        "duration" : 629
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "auth fails if wrong credentials provided",
+      "uid" : "fcae39631cd6aab4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611520383039,
+        "stop" : 1611520394819,
+        "duration" : 11780
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "3e2590eaae31e822",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511835475,
+        "stop" : 1611511855910,
+        "duration" : 20435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "submit button should be disabled if input fields are empty",
+      "uid" : "47cb4d06b0c91fa7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520152485,
+        "stop" : 1611520154205,
+        "duration" : 1720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f5a0ac5277abbdea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520376790,
+        "stop" : 1611520382084,
+        "duration" : 5294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "e53c55d3efa9c73c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520147755,
+        "stop" : 1611520152484,
+        "duration" : 4729
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "auth fails if wrong credentials provided",
+      "uid" : "83d97ffd20981c88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511856540,
+        "stop" : 1611511858162,
+        "duration" : 1622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "auth fails if wrong credentials provided",
+      "uid" : "843ea04f50e6fda8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611520154205,
+        "stop" : 1611520165900,
+        "duration" : 11695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "email required validation",
+      "uid" : "32550db450fc838d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858830,
+        "stop" : 1611511859581,
+        "duration" : 751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    }, {
+      "name" : "submit button should be disabled if input fields are empty",
+      "uid" : "17261a72b7894b60",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520382085,
+        "stop" : 1611520383039,
+        "duration" : 954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.104" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ],
+  "name" : "timeline"
+}

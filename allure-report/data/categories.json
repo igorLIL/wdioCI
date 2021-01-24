@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+      "children" : [ {
+        "name" : "auth fails if wrong credentials provided",
+        "uid" : "fcae39631cd6aab4",
+        "parentUid" : "252d0eb376b73b90f4bf38df3f18512e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611520383039,
+          "stop" : 1611520394819,
+          "duration" : 11780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-88.0.4324.104" ]
+      } ],
+      "uid" : "252d0eb376b73b90f4bf38df3f18512e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

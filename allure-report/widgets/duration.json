@@ -1,0 +1,51 @@
+[ {
+  "uid" : "fcae39631cd6aab4",
+  "name" : "auth fails if wrong credentials provided",
+  "time" : {
+    "start" : 1611520383039,
+    "stop" : 1611520394819,
+    "duration" : 11780
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5a0ac5277abbdea",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1611520376790,
+    "stop" : 1611520382084,
+    "duration" : 5294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32550db450fc838d",
+  "name" : "email required validation",
+  "time" : {
+    "start" : 1611511858830,
+    "stop" : 1611511859581,
+    "duration" : 751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17261a72b7894b60",
+  "name" : "submit button should be disabled if input fields are empty",
+  "time" : {
+    "start" : 1611520382085,
+    "stop" : 1611520383039,
+    "duration" : 954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bf9f125da87f548",
+  "name" : "email format validation",
+  "time" : {
+    "start" : 1611511858163,
+    "stop" : 1611511858829,
+    "duration" : 666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

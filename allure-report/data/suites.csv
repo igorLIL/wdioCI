@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Jan 24 12:33:03 PST 2021","Sun Jan 24 12:33:14 PST 2021","11780","","My Login application","","My Login application","auth fails if wrong credentials provided","auth fails if wrong credentials provided",""
+"passed","Sun Jan 24 12:32:56 PST 2021","Sun Jan 24 12:33:02 PST 2021","5294","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Sun Jan 24 10:10:58 PST 2021","Sun Jan 24 10:10:59 PST 2021","751","","My Login application","","My Login application","email required validation","email required validation",""
+"passed","Sun Jan 24 12:33:02 PST 2021","Sun Jan 24 12:33:03 PST 2021","954","","My Login application","","My Login application","submit button should be disabled if input fields are empty","submit button should be disabled if input fields are empty",""
+"passed","Sun Jan 24 10:10:58 PST 2021","Sun Jan 24 10:10:58 PST 2021","666","","My Login application","","My Login application","email format validation","email format validation",""

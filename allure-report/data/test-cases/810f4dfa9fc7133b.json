@@ -1,0 +1,162 @@
+{
+  "uid" : "810f4dfa9fc7133b",
+  "name" : "submit button should be disabled if input fields are empty",
+  "fullName" : "My Login application.submit button should be disabled if input fields are empty",
+  "historyId" : "390ee7a3a1f31ec88972cf4dd1e6d12",
+  "time" : {
+    "start" : 1611511855911,
+    "stop" : 1611511856540,
+    "duration" : 629
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611511855912,
+        "stop" : 1611511856461,
+        "duration" : 549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cbe6016edc7b72d",
+        "name" : "Request",
+        "source" : "8cbe6016edc7b72d.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611511856462,
+        "stop" : 1611511856483,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b627b59bc5f7a16c",
+        "name" : "Request",
+        "source" : "b627b59bc5f7a16c.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "58591d42d0137d8",
+        "name" : "Response",
+        "source" : "58591d42d0137d8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1611511856494,
+        "stop" : 1611511856522,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "972e305cf717dae7",
+        "name" : "Request",
+        "source" : "972e305cf717dae7.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "7ceeb920bffd94a6",
+        "name" : "Response",
+        "source" : "7ceeb920bffd94a6.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1611511856522,
+        "stop" : 1611511856537,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8376f7c62c19599c",
+        "name" : "Request",
+        "source" : "8376f7c62c19599c.json",
+        "type" : "application/json",
+        "size" : 4285
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit button should be disabled if input fields are empty"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "810f4dfa9fc7133b.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}
