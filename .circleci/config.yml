@@ -36,7 +36,7 @@ jobs:
              npm run report:generate
              zip -r allure-report.zip allure-report
       - store_artifacts:
-          path: allure-report.zip  
+          path: allure-report.zip      
 workflows:
   # Below is the definition of your workflow.
   # Inside the workflow, you provide the jobs you want to run, e.g this workflow runs the build-and-test job above.
