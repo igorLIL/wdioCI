@@ -28,22 +28,22 @@ describe('My Login application', () => {
         LoginPage.setUsername('example@example.com');
         LoginPage.setPassword('123456');
         LoginPage.clickSubmit();
-        expect(LoginPage.notification).toHaveText('Auth ');
+        expect(LoginPage.notification).toHaveText('Auth failed');
     });
 
-    // it('email format validation', () => {
-    //     LoginPage.setUsername('123');
-    //     expect(LoginPage.usernameValidation).toHaveText(`'email' is not a valid email`);
-    // });
-    //
-    // it('email required validation', () => {
-    //     LoginPage.setUsername('123');
-    //     // browser.pause(2000)
-    //    // LoginPage.clearUsername();
-    //     LoginPage.inputUsername.doubleClick();
-    //     // browser.pause(2000)
-    //     browser.keys("\u007F")
-    //     // browser.pause(2000)
-    //     expect(LoginPage.usernameValidation).toHaveText('Required');
-    // })
+    it('email format validation', () => {
+        LoginPage.setUsername('123');
+        expect(LoginPage.usernameValidation).toHaveText(`'email' is not a valid email`);
+    });
+
+    it('email required validation', () => {
+        LoginPage.setUsername('123');
+        // browser.pause(2000)
+       // LoginPage.clearUsername();
+        LoginPage.inputUsername.doubleClick();
+        // browser.pause(2000)
+        browser.keys("\u007F")
+        // browser.pause(2000)
+        expect(LoginPage.usernameValidation).toHaveText('Required');
+    })
 });

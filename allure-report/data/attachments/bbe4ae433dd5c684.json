@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@class=\"ant-col ant-form-item-control\" and div//input[@id=\"normal_login_email\"]]//div[@role=\"alert\"]"
-}

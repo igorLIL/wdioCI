@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+      "name" : "Expect $(`svg[data-icon=\"user\"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
       "children" : [ {
-        "name" : "auth fails if wrong credentials provided",
-        "uid" : "fcae39631cd6aab4",
-        "parentUid" : "252d0eb376b73b90f4bf38df3f18512e",
+        "name" : "should login with valid credentials",
+        "uid" : "d11d07598418cc74",
+        "parentUid" : "ed6ef686a1de52f37962cdb55899a582",
         "status" : "failed",
         "time" : {
-          "start" : 1611520383039,
-          "stop" : 1611520394819,
-          "duration" : 11780
+          "start" : 1611632798632,
+          "stop" : 1611632813226,
+          "duration" : 14594
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-88.0.4324.104" ]
       } ],
-      "uid" : "252d0eb376b73b90f4bf38df3f18512e"
+      "uid" : "ed6ef686a1de52f37962cdb55899a582"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
