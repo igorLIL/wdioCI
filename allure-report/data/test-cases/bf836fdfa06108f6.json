@@ -1,0 +1,66 @@
+{
+  "uid" : "bf836fdfa06108f6",
+  "name" : "email required validation",
+  "fullName" : "My Login application.email required validation",
+  "historyId" : "ef48d47e9509e200c0495f71a063ce22",
+  "time" : {
+    "start" : 1611632817346,
+    "stop" : 1611632818881,
+    "duration" : 1535
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "email required validation"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5457ebb7eff81ada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858830,
+        "stop" : 1611511859581,
+        "duration" : 751
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf836fdfa06108f6.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

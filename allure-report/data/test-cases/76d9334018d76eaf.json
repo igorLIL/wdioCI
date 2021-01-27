@@ -1,0 +1,98 @@
+{
+  "uid" : "76d9334018d76eaf",
+  "name" : "submit button should be disabled if input fields are empty",
+  "fullName" : "My Login application.submit button should be disabled if input fields are empty",
+  "historyId" : "390ee7a3a1f31ec88972cf4dd1e6d12",
+  "time" : {
+    "start" : 1611632813227,
+    "stop" : 1611632813854,
+    "duration" : 627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit button should be disabled if input fields are empty"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3abbc32f285a68a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611632771336,
+        "stop" : 1611632772085,
+        "duration" : 749
+      }
+    }, {
+      "uid" : "437cf68b62b904de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611632545012,
+        "stop" : 1611632546361,
+        "duration" : 1349
+      }
+    }, {
+      "uid" : "aea43ed67f83d37d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520382085,
+        "stop" : 1611520383039,
+        "duration" : 954
+      }
+    }, {
+      "uid" : "cec01d6bda437a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520152485,
+        "stop" : 1611520154205,
+        "duration" : 1720
+      }
+    }, {
+      "uid" : "a0923912b5600a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511855911,
+        "stop" : 1611511856540,
+        "duration" : 629
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76d9334018d76eaf.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

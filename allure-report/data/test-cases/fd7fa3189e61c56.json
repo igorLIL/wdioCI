@@ -1,0 +1,101 @@
+{
+  "uid" : "fd7fa3189e61c56",
+  "name" : "auth fails if wrong credentials provided",
+  "fullName" : "My Login application.auth fails if wrong credentials provided",
+  "historyId" : "3cde1faa61b3c9059564ebd2450bb478",
+  "time" : {
+    "start" : 1611632813855,
+    "stop" : 1611632815361,
+    "duration" : 1506
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "auth fails if wrong credentials provided"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "78e9a859f155ddfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611632772086,
+        "stop" : 1611632773278,
+        "duration" : 1192
+      }
+    }, {
+      "uid" : "c67ae1e39d9e2b86",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+      "time" : {
+        "start" : 1611632546362,
+        "stop" : 1611632557885,
+        "duration" : 11523
+      }
+    }, {
+      "uid" : "1d12023e334de0e3",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+      "time" : {
+        "start" : 1611520383039,
+        "stop" : 1611520394819,
+        "duration" : 11780
+      }
+    }, {
+      "uid" : "9ce9c30aa1bcc8af",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+      "time" : {
+        "start" : 1611520154205,
+        "stop" : 1611520165900,
+        "duration" : 11695
+      }
+    }, {
+      "uid" : "2695d70ceb0a838e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511856540,
+        "stop" : 1611511858162,
+        "duration" : 1622
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd7fa3189e61c56.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

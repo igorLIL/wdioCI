@@ -1,0 +1,122 @@
+{
+  "uid" : "d11d07598418cc74",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "341fcc5fd3148e30eaf524e1244a9008",
+  "time" : {
+    "start" : 1611632798632,
+    "stop" : 1611632813226,
+    "duration" : 14594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`svg[data-icon=\"user\"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+  "statusTrace" : "Error: Expect $(`svg[data-icon=\"user\"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"\n                    at Context.<anonymous> (C:\\Program Files\\Git\\wdioCI\\test\\specs\\/example.js:19:42)\n                    at Context.executeSync (C:\\Program Files\\Git\\wdioCI\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Program Files\\Git\\wdioCI\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`svg[data-icon=\"user\"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+    "statusTrace" : "Error: Expect $(`svg[data-icon=\"user\"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"\n                    at Context.<anonymous> (C:\\Program Files\\Git\\wdioCI\\test\\specs\\/example.js:19:42)\n                    at Context.executeSync (C:\\Program Files\\Git\\wdioCI\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Program Files\\Git\\wdioCI\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b74ad98277f214a",
+      "name" : "Screenshot",
+      "source" : "8b74ad98277f214a.png",
+      "type" : "image/png",
+      "size" : 91075
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd854891c4cd652e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611632762511,
+        "stop" : 1611632771336,
+        "duration" : 8825
+      }
+    }, {
+      "uid" : "86a86f7a795897b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611632534495,
+        "stop" : 1611632545011,
+        "duration" : 10516
+      }
+    }, {
+      "uid" : "6d520b03a0c7dc02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520376790,
+        "stop" : 1611520382084,
+        "duration" : 5294
+      }
+    }, {
+      "uid" : "b946506eda1f6e52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611520147755,
+        "stop" : 1611520152484,
+        "duration" : 4729
+      }
+    }, {
+      "uid" : "7a3fd8191864b37e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511835475,
+        "stop" : 1611511855910,
+        "duration" : 20435
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d11d07598418cc74.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

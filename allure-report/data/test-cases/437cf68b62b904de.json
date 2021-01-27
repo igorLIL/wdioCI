@@ -1,0 +1,56 @@
+{
+  "uid" : "437cf68b62b904de",
+  "name" : "submit button should be disabled if input fields are empty",
+  "fullName" : "My Login application.submit button should be disabled if input fields are empty",
+  "historyId" : "390ee7a3a1f31ec88972cf4dd1e6d12",
+  "time" : {
+    "start" : 1611632545012,
+    "stop" : 1611632546361,
+    "duration" : 1349
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "submit button should be disabled if input fields are empty"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "437cf68b62b904de.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "ae244521f11b0947",
+  "name" : "email format validation",
+  "fullName" : "My Login application.email format validation",
+  "historyId" : "274cb95d86e24a7eafb030ab6e347c4c",
+  "time" : {
+    "start" : 1611632815362,
+    "stop" : 1611632817345,
+    "duration" : 1983
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "email format validation"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "300cd45a890d6436",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611511858163,
+        "stop" : 1611511858829,
+        "duration" : 666
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae244521f11b0947.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}

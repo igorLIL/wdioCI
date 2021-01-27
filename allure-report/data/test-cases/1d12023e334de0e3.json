@@ -1,0 +1,76 @@
+{
+  "uid" : "1d12023e334de0e3",
+  "name" : "auth fails if wrong credentials provided",
+  "fullName" : "My Login application.auth fails if wrong credentials provided",
+  "historyId" : "3cde1faa61b3c9059564ebd2450bb478",
+  "time" : {
+    "start" : 1611520383039,
+    "stop" : 1611520394819,
+    "duration" : 11780
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+  "statusTrace" : "Error: Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"\n                    at Context.<anonymous> (C:\\Program Files\\Git\\QA-wdiotest\\test\\specs\\/example.js:31:40)\n                    at Context.executeSync (C:\\Program Files\\Git\\QA-wdiotest\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Program Files\\Git\\QA-wdiotest\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"",
+    "statusTrace" : "Error: Expect $(`.ant-notification-notice-message`) to have text\n                \n                Expected: \"Auth \"\n                Received: \"Auth failed\"\n                    at Context.<anonymous> (C:\\Program Files\\Git\\QA-wdiotest\\test\\specs\\/example.js:31:40)\n                    at Context.executeSync (C:\\Program Files\\Git\\QA-wdiotest\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Program Files\\Git\\QA-wdiotest\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4cffc1081d30f610",
+      "name" : "Screenshot",
+      "source" : "4cffc1081d30f610.png",
+      "type" : "image/png",
+      "size" : 98147
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "auth fails if wrong credentials provided"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d12023e334de0e3.json",
+  "parameterValues" : [ "chrome-88.0.4324.104" ]
+}
